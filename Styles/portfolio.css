@@ -32,6 +32,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0px 20px;
 }
 
 nav>ul {
@@ -47,4 +48,19 @@ nav li {
 nav a {
     text-decoration: none;
     color: gray;
+}
+
+/*header*/
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    text-align: center;
+}
+
+.banner .picture{
+    width: 300px;
 }
